@@ -41,10 +41,10 @@ public class SimpleCalculator {
         int operation = scannerObject.nextInt();
 
         try{
-            simpleCalculator(number1,number2,operation);
+            System.out.println(simpleCalculator(number1,number2,operation));
         }
-        catch (CustomException e){
-            System.out.println(e);
+        catch (CustomException Exception){
+            System.out.println(Exception);
 
         }
 
